@@ -18,6 +18,36 @@ Before diving into deep let me try to summarise what we will be learning going t
 ![alt text](/docs/assets/3.png)
 - So the idea here is just the reverse, we are going to read our storage medium and then we are going to field the data back to our object. This is called deserialization.
 
+### There are actually three major issues that serializationa and deserialization are solving. 
+
+![alt text](/docs/assets/5.png)
+
+- `Language Agnosticism` 
+    -  process of transforming our object data so that the data is easily accessible from different programming languages.
+    - We want our data to be accessible in python, accessible in JS, in c++, and any other languages.
+    - For example we have a machine learning application in python, webiste in java and a game in c++, they need to share sata with each other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
