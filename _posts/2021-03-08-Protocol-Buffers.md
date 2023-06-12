@@ -18,14 +18,27 @@ Before diving into deep let me try to summarise what we will be learning going t
 ![alt text](/docs/assets/3.png)
 - So the idea here is just the reverse, we are going to read our storage medium and then we are going to field the data back to our object. This is called deserialization.
 
-### There are actually three major issues that serializationa and deserialization are solving. 
+### There are actually three major issues that serialization and deserialization are solving. 
 
 ![alt text](/docs/assets/5.png)
-
 - `Language Agnosticism` 
-    -  process of transforming our object data so that the data is easily accessible from different programming languages.
+    - process of transforming our object data so that the data is easily accessible from different programming languages.
     - We want our data to be accessible in python, accessible in JS, in c++, and any other languages.
     - For example we have a machine learning application in python, webiste in java and a game in c++, they need to share sata with each other.
+
+![alt text](/docs/assets/6.png)
+- `Communication`
+    - We need multiple machines to be able to communicate and share data.
+    - So on top of language agnosticism , we want our data to not be dependent on any operating system.
+    - We want our data to be as small as possible so that we can send fata fast over the network and we can receive it fast over the network. Saving network bandwidth and storage dpce.
+
+![alt text](/docs/assets/7.png)
+- `Object Relationship`
+    - One object may have relationship with other object. 
+    - It is important that we serialize these relationships so that any other program that is reusing our data will work the same way as expected.
+    - It helps in maintaining consistency across multiple machines and multiple programs.
+
+![alt text](/docs/assets/8.png)
 
 
 
