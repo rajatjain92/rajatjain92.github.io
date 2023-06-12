@@ -9,9 +9,9 @@ In my early days of coding I got around a situation where i was required to run 
 
 ---
 
-Prerequisutes :
+**Prerequisutes** :
 So lets dive in to solve it. First some basic terms:
-Familiarity with /dev/null or >dev/null 2>&1 . /dev/nullis a file called null device in unix systems. It is called blackhole because whatever redirected to it is discarded and it returns EOF if read. Above 2 stands for stderr and 1 stands for stdout . 2>&1 means redirecting output from std error to std output. For more details there is a good article :
+- Familiarity with /dev/null or >dev/null 2>&1 . /dev/nullis a file called null device in unix systems. It is called blackhole because whatever redirected to it is discarded and it returns EOF if read. Above 2 stands for stderr and 1 stands for stdout . 2>&1 means redirecting output from std error to std output. For more details there is a good article :
 
 Step by step breakdown of /dev/null
 Newcomers to Bash programming will sooner or later come across /dev/null and another obscure jargon: > /dev/null 2>&1…medium.com
@@ -49,6 +49,7 @@ Code :
 Steps to be implemented :
 Check if virtualenv is present or not first ? You can check using type command in unix.
 
+```bash
 ### If present
 colossus@nvc-dgx1-001:~$ type virtualenv
 virtualenv is /usr/bin/virtualenv
@@ -94,5 +95,6 @@ virtualenv my_env_$TAG -p python3
 Using this will help you know different virtual environments created with different tags in git of your development branch.
 
 ---
+```
 
 Thanks for reading . Please click on clap if you like this article.
