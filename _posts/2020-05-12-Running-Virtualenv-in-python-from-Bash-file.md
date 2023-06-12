@@ -4,6 +4,7 @@
 
 Running Virtualenv in python from Bash file
 Even after many searches on google i was not able to find any straight forward solution to this problem. Hence sharing my experience after implementing it. It is very easy and may be many of you would know much part of it.
+
 In my early days of coding I got around a situation where i was required to run many commands in virtual environment in my python project. So it was to write a bash script so that other developers would not have to go through all long process. So one thing where i was struggling was to create virtual environment from bash file…..run everything…..delete virtualenv and then close bash file.
 
 ---
