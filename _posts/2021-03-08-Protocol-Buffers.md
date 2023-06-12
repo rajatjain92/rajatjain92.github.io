@@ -1,4 +1,6 @@
-## Blog Post Title From First Header
+## What is Protocol Buffers and WHY ?
+
+Before diving into deep let me try to summarise what we will be learning going through the post.
 
 Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
 
