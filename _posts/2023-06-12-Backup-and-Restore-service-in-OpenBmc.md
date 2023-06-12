@@ -29,7 +29,7 @@ Create a Redfish API which provides functionality to backup and restore BMC conf
 
 ## High Level Design Diagram
 
-![alt text](https://github.com/rajatjain92/rajatjain92.github.io/blob/main/_posts/HighLevelDesign.PNG)
+![alt text](/docs/assets/HighLevelDesign.PNG)
 
 
 ## High Level Design
