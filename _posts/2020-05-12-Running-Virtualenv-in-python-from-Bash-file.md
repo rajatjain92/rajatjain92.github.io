@@ -29,6 +29,7 @@ colossus@nvc-dgx1-001:~$
 As you can see above tmp.txt file is present , if we run cat tmp.txt it is successful with exit status 0 , if file is not present like tt.txt , then $? returns 1. So every command in unix have exit status with some error message (if not successful) . This error message is directed to stderr not stdout. For more reference refer to link mentioned in first bullet point.
 type command in linux . It is used to find out the information about a Linux command. As the name implies, you can easily find whether the given command is an alias, shell built-in, file, function, or keyword using "type" command. Additionally, you can find the actual path of the command too. Why would anyone need to find the command type? For instance, if you happen to work on a shared computer often, some guys may intentionally or accidentally create an alias to a particular Linux command to perform an unwanted operation, for example. alias ls = rm -rf / So, it is always good idea to inspect them before something worse happen. This is where the type command comes in help. For more details refer to :
 
+```powershell
 The Type Command Tutorial With Examples For Beginners - OSTechNix
 The Type command is used to find out the information about a Linux command. As the name implies, you can easily find…www.ostechnix.com
 $ type ls
@@ -49,7 +50,7 @@ Code :
 Steps to be implemented :
 Check if virtualenv is present or not first ? You can check using type command in unix.
 
-```bash
+
 ### If present
 colossus@nvc-dgx1-001:~$ type virtualenv
 virtualenv is /usr/bin/virtualenv
