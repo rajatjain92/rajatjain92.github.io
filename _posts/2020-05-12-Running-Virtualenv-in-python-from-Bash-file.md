@@ -1,3 +1,5 @@
+![alt text](/docs/assets/0_IGLjFlKFg4Eozmw8.png)
+
 ---
 
 Running Virtualenv in python from Bash file
